@@ -1,5 +1,5 @@
 # Skapar spelbrädet
-board = [' '] * 10  # Index 0 använder vi inte, för enklare numrering
+board = [' '] * 10  
 
 def display_board(board):
     print(board[7] + '|' + board[8] + '|' + board[9])
@@ -77,5 +77,6 @@ def play_game():
 print(play_game())
 
         
+
 
 
